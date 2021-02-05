@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.API\\PMS.API.csproj": {}
+  },
+  "projects": {
+    "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.API\\PMS.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.API\\PMS.API.csproj",
+        "projectName": "PMS.API",
+        "projectPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.API\\PMS.API.csproj",
+        "packagesPath": "C:\\Users\\velan\\.nuget\\packages\\",
+        "outputPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\velan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.DataEFCore\\PMS.DataEFCore.csproj": {
+                "projectPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.DataEFCore\\PMS.DataEFCore.csproj"
+              },
+              "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Domain\\PMS.Domain.csproj": {
+                "projectPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Domain\\PMS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.DataEFCore\\PMS.DataEFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.DataEFCore\\PMS.DataEFCore.csproj",
+        "projectName": "PMS.DataEFCore",
+        "projectPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.DataEFCore\\PMS.DataEFCore.csproj",
+        "packagesPath": "C:\\Users\\velan\\.nuget\\packages\\",
+        "outputPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.DataEFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\velan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Domain\\PMS.Domain.csproj": {
+                "projectPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Domain\\PMS.Domain.csproj"
+              },
+              "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Utility\\PMS.Utility.csproj": {
+                "projectPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Utility\\PMS.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Domain\\PMS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Domain\\PMS.Domain.csproj",
+        "projectName": "PMS.Domain",
+        "projectPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Domain\\PMS.Domain.csproj",
+        "packagesPath": "C:\\Users\\velan\\.nuget\\packages\\",
+        "outputPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\velan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Utility\\PMS.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Utility\\PMS.Utility.csproj",
+        "projectName": "PMS.Utility",
+        "projectPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Utility\\PMS.Utility.csproj",
+        "packagesPath": "C:\\Users\\velan\\.nuget\\packages\\",
+        "outputPath": "G:\\DotNet\\Learning\\PMS\\PropertyManager\\PMS.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\velan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
